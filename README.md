@@ -1,4 +1,4 @@
-# program-repair.org #
+# program-repair.org # [![build](https://github.com/h4iku/program-repair.github.io/actions/workflows/build.yml/badge.svg)](https://github.com/h4iku/program-repair.github.io/actions/workflows/build.yml)
 
 This website is a community-driven effort to provide up-to-date automated program repair bibliography, and links to publicly available tools and benchmarks.
 
