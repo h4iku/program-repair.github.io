@@ -19,7 +19,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-#      if: ${{ github.event_name == 'pull_request' }}
+    - if: ${{ github.event_name == 'pull_request' }}
+      uses: actions/checkout@v3
+      with:
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+        ref: ${{ github.event.pull_request.head.ref }}
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -32,9 +36,4 @@ jobs:
       run: |
         python build.py
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: .
-        publish_branch: ghact-test
-        keep_files: true
+      uses: EndBug/add-and-commit@v9
