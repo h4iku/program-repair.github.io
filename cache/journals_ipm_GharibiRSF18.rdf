@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<rdf:RDF xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#" xmlns:cito="http://purl.org/spar/cito/" xmlns:datacite="http://purl.org/spar/datacite/" xmlns:dbo="http://dbpedia.org/ontology/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:litre="http://purl.org/spar/literal/" xmlns:locid="http://id.loc.gov/vocabulary/identifiers/" xmlns:locrel="http://id.loc.gov/vocabulary/relators/" xmlns:schema="https://schema.org/" xmlns:wd="http://www.wikidata.org/entity/" xmlns:wdt="http://www.wikidata.org/prop/direct/" xmlns:dblp="https://dblp.org/rdf/schema#">
+<dblp:Article rdf:about="https://dblp.org/rec/journals/ipm/GharibiRSF18">
+<rdf:type rdf:resource="https://dblp.org/rdf/schema#Publication" />
+<owl:sameAs rdf:resource="https://doi.org/10.1016/j.ipm.2018.07.004" />
+<owl:sameAs rdf:resource="http://dx.doi.org/10.1016/j.ipm.2018.07.004" />
+<rdfs:label>Reza Gharibi et al.: Leveraging textual properties of bug reports to localize relevant source files. (2018)</rdfs:label>
+<dblp:doi rdf:resource="https://doi.org/10.1016/j.ipm.2018.07.004" />
+<dblp:doi rdf:resource="http://dx.doi.org/10.1016/j.ipm.2018.07.004" />
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/dblp-record" />
+<litre:hasLiteralValue>journals/ipm/GharibiRSF18</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<datacite:hasIdentifier>
+<datacite:ResourceIdentifier>
+<datacite:usesIdentifierScheme rdf:resource="http://purl.org/spar/datacite/doi" />
+<litre:hasLiteralValue>10.1016/j.ipm.2018.07.004</litre:hasLiteralValue>
+</datacite:ResourceIdentifier>
+</datacite:hasIdentifier>
+<dblp:title>Leveraging textual properties of bug reports to localize relevant source files.</dblp:title>
+<dblp:bibtexType rdf:resource="http://purl.org/net/nknouf/ns/bibtex#Article" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/231/1615" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/130/2188" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/96/9848" />
+<dblp:authoredBy rdf:resource="https://dblp.org/pid/162/9263" />
+<dblp:numberOfCreators rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</dblp:numberOfCreators>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Reza Gharibi</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/231/1615" />
+<dblp:signatureOrdinal>1</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ipm/GharibiRSF18" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Amir Hossein Rasekh</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/130/2188" />
+<dblp:signatureOrdinal>2</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ipm/GharibiRSF18" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Mohammad Hadi Sadreddini</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/96/9848" />
+<dblp:signatureOrdinal>3</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ipm/GharibiRSF18" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:hasSignature>
+<dblp:AuthorSignature>
+<dblp:signatureDblpName>Seyed Mostafa Fakhrahmad</dblp:signatureDblpName>
+<dblp:signatureCreator rdf:resource="https://dblp.org/pid/162/9263" />
+<dblp:signatureOrcid rdf:resource="https://orcid.org/0000-0002-9517-0541" />
+<dblp:signatureOrdinal>4</dblp:signatureOrdinal>
+<dblp:signaturePublication rdf:resource="https://dblp.org/rec/journals/ipm/GharibiRSF18" />
+</dblp:AuthorSignature>
+</dblp:hasSignature>
+<dblp:primaryDocumentPage rdf:resource="https://doi.org/10.1016/j.ipm.2018.07.004" />
+<dblp:documentPage rdf:resource="https://doi.org/10.1016/j.ipm.2018.07.004" />
+<dblp:listedOnTocPage rdf:resource="https://dblp.org/db/journals/ipm/ipm54" />
+<dblp:pagination>1058-1076</dblp:pagination>
+<dblp:publishedIn>Inf. Process. Manag.</dblp:publishedIn>
+<dblp:publishedInJournal>Inf. Process. Manag.</dblp:publishedInJournal>
+<dblp:publishedInJournalVolume>54</dblp:publishedInJournalVolume>
+<dblp:publishedInJournalVolumeIssue>6</dblp:publishedInJournalVolumeIssue>
+<dblp:yearOfPublication>2018</dblp:yearOfPublication>
+</dblp:Article>
+<rdf:Description rdf:about="https://dblp.org/rec/journals/ipm/GharibiRSF18.rdf">
+<rdfs:label>provenance information for RDF data of dblp record &apos;journals/ipm/GharibiRSF18&apos;</rdfs:label>
+<dct:creator rdf:resource="https://dblp.org" />
+<dct:isPartOf rdf:resource="https://dblp.org/rdf/dblp.rdf" />
+<dct:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+<dct:modified>2020-02-21T13:10:40+0100</dct:modified>
+</rdf:Description>
+</rdf:RDF>
