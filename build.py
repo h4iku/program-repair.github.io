@@ -40,21 +40,12 @@ statistics_output_file = join(root_dir, 'statistics.html')
 dblp_schema = "https://dblp.org/rdf/schema"
 rdf_syntax = "http://www.w3.org/1999/02/22-rdf-syntax-ns"
 title_ref = rdflib.URIRef(dblp_schema + "#title")
-<<<<<<< HEAD
-primaryFullPersonName_ref = rdflib.URIRef(dblp_schema + "#primaryFullCreatorName")
-primaryCreatorName_ref = rdflib.URIRef(dblp_schema + "#primaryCreatorName")
-=======
 primaryPersonName_ref = rdflib.URIRef(dblp_schema + "#primaryCreatorName")
->>>>>>> master
 publishedInBook_ref = rdflib.URIRef(dblp_schema + "#publishedInBook")
 publishedInJournal_ref = rdflib.URIRef(dblp_schema + "#publishedInJournal")
 publishedInJournalVolume_ref = rdflib.URIRef(dblp_schema + "#publishedInJournalVolume")
 publishedInJournalVolumeIssue_ref = rdflib.URIRef(dblp_schema + "#publishedInJournalVolumeIssue")
 yearOfPublication_ref = rdflib.URIRef(dblp_schema + "#yearOfPublication")
-<<<<<<< HEAD
-primaryElectronicEdition_ref = rdflib.URIRef(dblp_schema + "#primaryElectronicEdition")
-=======
->>>>>>> master
 primaryDocumentPage_ref = rdflib.URIRef(dblp_schema + "#primaryDocumentPage")
 
 # year -> num
